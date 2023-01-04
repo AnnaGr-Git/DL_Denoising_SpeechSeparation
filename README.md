@@ -45,7 +45,7 @@ This will automaticlly read all the configurations from the `conf/config.yaml` f
 python train.py dset=dataset_2+1ch 
 ```
 
-##### Training DPRNN and SVoice on DTU HPC
+#### Training DPRNN and SVoice on DTU HPC
 Due to high computational resources, the training was done using the DTU HPC. The steps required are the same as for DPRNN. Those are decribed in the [Wiki](https://github.com/AnnaGr-Git/DL_Denoising_SpeechSeparation/wiki).
 
 #### Logs
