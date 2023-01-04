@@ -5,6 +5,9 @@ We present two new training approaches for the state-of-the art models in speech
 
 Audio samples of the proposed 2+1ch model can be found here: [Samples](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/samples)
 
+## Creating the dataset
+
+
 ## Setting up and using SVoice
 
 To setup the environment for training the mentioned 2ch and 2+1ch SVoice models, follow the steps described [here](https://github.com/facebookresearch/svoice).
