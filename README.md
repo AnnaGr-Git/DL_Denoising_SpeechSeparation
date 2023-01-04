@@ -53,5 +53,16 @@ as well as the log with the metrics `trainer.log`. All metrics are also extracte
 file for easier parsing. Enhancements samples are stored in the `samples` folder (if `mix_dir` or `mix_json`
 is set in the dataset config yaml file).
 
-Our output files can be found [here](
+Our output files can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/outputs). The checkpoint files could not be added to this repository, since the files are >100 MB. They can be provided on request. The checkpoint files could also be used to continue the training for better results.
+
+
+### Separation
+
+Separating files can be done by launching the following:
+
+```
+python -m svoice.separate <path to the model> <path to store the separated files> --mix_dir=<path to the dir with the mixture files>
+```
+
+
 
