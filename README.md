@@ -45,4 +45,13 @@ This will automaticlly read all the configurations from the `conf/config.yaml` f
 python train.py dset=dataset_2+1ch 
 ```
 
+#### Logs
+
+Logs are stored by default in the `outputs` folder. Look for the matching experiment name.
+In the experiment folder you will find the training checkpoint `checkpoint.th` (containing the last state as well as the best state)
+as well as the log with the metrics `trainer.log`. All metrics are also extracted to the `history.json`
+file for easier parsing. Enhancements samples are stored in the `samples` folder (if `mix_dir` or `mix_json`
+is set in the dataset config yaml file).
+
+Our output files can be found [here](
 
