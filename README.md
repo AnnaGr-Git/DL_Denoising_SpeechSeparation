@@ -12,20 +12,37 @@ To setup the environment for training the mentioned 2ch and 2+1ch SVoice models,
 ### Setting up a our training dataset
 
 If you want to train the model using our dataset, first follow the instruction for creating the subset from LibriMix, and save the files in the following structure: tr/s1, tr/s2, tr/s3, val/s1, val/s2, val/s3. Then:
-1. Create a separate config file for it, which refers to the data folders, similar to the ones we used: [config](.
-2. Place the new config files under the `dset` folder. Check [conf/dset/debug.yaml](conf/dset/debug.yaml)
-for more details on configuring your dataset.
+1. Create a separate config file for it, which refers to the data folders, similar to the ones we used: [config](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/conf). To train the 2+1ch model, the s3 folder should contain the noise data. To train the 2ch model, only the s1 and s2 folders are needed.
+2. Place the new config files under the `dset` folder. 
 3. Point to it either in the general config file or via the command line, e.g. `./train.py dset=name_of_dset`.
 
 You also need to generate the relevant `.json`files in the `egs/`folder.
 For that purpose you can use the `python -m svoice.data.audio` command that will
 scan the given folders and output the required metadata as json.
-For instance, if your mixture files are located in `$mix` and the separated files are in `$spk1` and `$spk2`, you can do
+For example, if your mixture files are located in `$mix` and the separated files are in `$spk1`, `$spk2`, and the noise is saved in `$spk3`, you can do
 
 ```bash
-out=egs/mydataset/tr
+out=egs/dataset_2+1ch/tr
 mkdir -p $out
 python -m svoice.data.audio $mix > $out/mix.json
 python -m svoice.data.audio $spk1 > $out/s1.json
-python -m svoice.data.audio $spk1 > $out/s1.json
+python -m svoice.data.audio $spk2 > $out/s2.json
+python -m svoice.data.audio $spk3 > $out/s3.json
 ```
+The resulting `.json`files should look similar to ours that can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/egs/dataset_2%2B1ch). 
+
+### Usage
+
+#### Training
+Training is simply done by launching the `train.py` script:
+
+```
+python train.py
+```
+
+This will automaticlly read all the configurations from the `conf/config.yaml` file in the SVoice repository. We used the same hyperparameters as provided in the file. To overwrite the default dataset to the desired LibriMix dataset configured before, do:
+```
+python train.py dset=dataset_2+1ch 
+```
+
+
