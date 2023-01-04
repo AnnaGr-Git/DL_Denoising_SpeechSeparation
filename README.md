@@ -85,4 +85,6 @@ To evaluate the 2+1ch model of SVoice, the noise channel need to be disregarded.
 
 
 ## Results
-  
+
+![image](https://user-images.githubusercontent.com/75242605/210592149-e9f467ad-8ab1-4152-9dff-e2c9683875a6.png)
+
