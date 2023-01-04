@@ -45,6 +45,9 @@ This will automaticlly read all the configurations from the `conf/config.yaml` f
 python train.py dset=dataset_2+1ch 
 ```
 
+##### Training DPRNN and SVoice on DTU HPC
+Due to high computational resources, the training was done using the DTU HPC. The steps required are the same as for DPRNN. Those are decribed in the [Wiki](https://github.com/AnnaGr-Git/DL_Denoising_SpeechSeparation/wiki).
+
 #### Logs
 
 Logs are stored by default in the `outputs` folder. Look for the matching experiment name.
@@ -66,7 +69,7 @@ python -m svoice.separate <path to the model> <path to store the separated files
 
 ### Evaluating
 
-Evaluating the models can be done by launching the following:
+Evaluating the 2ch models can be done by launching the following:
 
 ```
 python -m svoice.evaluate <path to the model> <path to folder containing mix.json and all target separated channels json files s<ID>.json>
@@ -75,7 +78,15 @@ python -m svoice.evaluate <path to the model> <path to folder containing mix.jso
 For more details regarding possible arguments, please see:
 
 ```
-
 positional arguments:
   model_path            Path to model file created by training
-  data_dir              directory including the .json files for the test data. This should include mix.json, s1.json, s2.json and s3.json for the 2+1ch model and mix.json, s1.json, s2.json for the 2ch model. 
+  data_dir              directory including the .json files for the test data. This should include  mix.json, s1.json, s2.json for the 2ch model. 
+```
+
+To evaluate the 2+1ch model of SVoice, the noise channel need to be disregarded. First, the test files need to be seperated following the steps mentioned above. After, the script `Calculate_SISNRi_svoice.py` needs to be used with updated paths to the folders with the separated files. The output is the SI-SNRi and the filename of the best separated mixture. To test the DPRNN models, the same scripts can be adapted and used.
+
+
+## Results
+
+![image](https://user-images.githubusercontent.com/75242605/210592149-e9f467ad-8ab1-4152-9dff-e2c9683875a6.png)
+
