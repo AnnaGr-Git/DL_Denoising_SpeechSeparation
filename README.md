@@ -64,5 +64,18 @@ Separating files can be done by launching the following:
 python -m svoice.separate <path to the model> <path to store the separated files> --mix_dir=<path to the dir with the mixture files>
 ```
 
+### Evaluating
 
+Evaluating the models can be done by launching the following:
 
+```
+python -m svoice.evaluate <path to the model> <path to folder containing mix.json and all target separated channels json files s<ID>.json>
+```
+
+For more details regarding possible arguments, please see:
+
+```
+
+positional arguments:
+  model_path            Path to model file created by training
+  data_dir              directory including the .json files for the test data. This should include mix.json, s1.json, s2.json and s3.json for the 2+1ch model and mix.json, s1.json, s2.json for the 2ch model. 
