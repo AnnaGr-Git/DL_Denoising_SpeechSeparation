@@ -1,0 +1,7 @@
+
+# @package dset
+train: svoice/egs/dataset_2ch/tr
+valid: svoice/egs/dataset_2ch/val
+test: svoice/egs/dataset_2ch/val
+mix_json: svoice/egs/dataset_2ch/tr/mix.json
+mix_dir:
