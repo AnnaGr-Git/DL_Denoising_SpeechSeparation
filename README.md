@@ -44,6 +44,7 @@ This will automaticlly read all the configurations from the `conf/config.yaml` f
 ```
 python train.py dset=dataset_2+1ch 
 ```
+Due to high computational resources, the training was done using the DTU HPC. 
 
 #### Logs
 
@@ -66,7 +67,7 @@ python -m svoice.separate <path to the model> <path to store the separated files
 
 ### Evaluating
 
-Evaluating the models can be done by launching the following:
+Evaluating the 2ch models can be done by launching the following:
 
 ```
 python -m svoice.evaluate <path to the model> <path to folder containing mix.json and all target separated channels json files s<ID>.json>
@@ -75,7 +76,13 @@ python -m svoice.evaluate <path to the model> <path to folder containing mix.jso
 For more details regarding possible arguments, please see:
 
 ```
-
 positional arguments:
   model_path            Path to model file created by training
-  data_dir              directory including the .json files for the test data. This should include mix.json, s1.json, s2.json and s3.json for the 2+1ch model and mix.json, s1.json, s2.json for the 2ch model. 
+  data_dir              directory including the .json files for the test data. This should include  mix.json, s1.json, s2.json for the 2ch model. 
+```
+
+To evaluate the 2+1ch model, the noise channel need to be disregarded. First, the test files need to be seperated following the steps mentioned above. After, the script `Calculate_SISNRi_svoice.py` needs to be used with updated paths to the folders with the separated files. The output is the SI-SNRi and the filename of the best separated mixture.
+
+
+  
+  
