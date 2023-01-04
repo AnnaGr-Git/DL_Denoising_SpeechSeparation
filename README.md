@@ -32,7 +32,7 @@ python -m svoice.data.audio $spk3 > $out/s3.json
 The resulting `.json`files should look similar to ours that can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/egs/dataset_2%2B1ch). 
 
 ### Usage
-An examplary usage of training and using SVoice for a small dataset can be found [here](
+An examplary usage of training and using SVoice for a small dataset can be found [here](https://github.com/AnnaGr-Git/DL_Denoising_SpeechSeparation/blob/main/Train_SVoice_Example.ipynb).
 For bigger datasets, the models need to be trained on DTU HPC. The required steps are decribed in the following.
 #### Training
 Training is simply done by launching the `train.py` script:
