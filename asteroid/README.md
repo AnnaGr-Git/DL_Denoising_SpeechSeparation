@@ -10,7 +10,7 @@ If you have downloaded Asteriod locally or in Colab, please replace `librimix_da
 
 ## Usage
 
-An examplary usage of training and using DPRNN for a small dataset can be found [here](https://github.com/AnnaGr-Git/DL_Denoising_SpeechSeparation/blob/main/Train_SVoice_Example.ipynb).
+An examplary usage of training and using DPRNN for a small dataset can be found [here](https://github.com/AnnaGr-Git/DL_Denoising_SpeechSeparation/blob/main/asteroid/Train_DPRNN_Example.ipynb).
 
 For bigger datasets, the models need to be trained on DTU HPC. The required steps are decribed in the following. Please add our scripts in your asteroid folder: `run_model.py`, `job.sh`, `reload_DPRNN_model.py`, 
 
