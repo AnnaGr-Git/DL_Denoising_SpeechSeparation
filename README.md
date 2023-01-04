@@ -29,4 +29,4 @@ python -m svoice.data.audio $spk1 > $out/s1.json
 python -m svoice.data.audio $spk2 > $out/s2.json
 python -m svoice.data.audio $spk3 > $out/s3.json
 ```
-The resulting `.json`files should look similar to ours that can be found [here](
+The resulting `.json` files should look similar to ours that can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/egs/dataset_2%2B1ch).
