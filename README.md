@@ -6,7 +6,16 @@ We present two new training approaches for the state-of-the art models in speech
 Audio samples of the proposed 2+1ch model can be found here: [Samples](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/samples)
 
 ## Creating the dataset
+The dataset used for this project is based on the Librimix dataset. When creating the dataset with Librimix, the files are separated in mix and sources(s1, s2). This format is not compatible with the sVoice training so the structure of the dataset was changed. Now, every sample is a folder containing three files(in case of 2 speakers problem): mix, s1, s2. This process is done by the function adaptDataset in utils.py
+In order to use this function, a Librimix dataset must be created following the steps of the next section(Setting up a our training dataset). After this, the user just need to call the function specifying the data path in the project, the desired training folder path and the path of the librimix datasetWHAMR! 
 
+example: 
+adaptDataset('./data', "./data/train", "./MiniLibriMix/train")
+
+In order to increase the diversity of noises in the dataset, the WHAMR! dataset was used and incorporated to the mixed. For this purpose, the team created the mixSignals function which generates samples with the speakers, noises and SNR values given by the user. Creating the own dataset allowed to test the performance of the model in multiple noise situations and levels(with the variation of the SNR). 
+
+example:
+mixSignals(['./data/s1.wav', './data/s2.wav'], './data/noise.wav', SNR=5)
 
 ## Setting up and using SVoice
 
