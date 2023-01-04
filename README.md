@@ -45,4 +45,37 @@ This will automaticlly read all the configurations from the `conf/config.yaml` f
 python train.py dset=dataset_2+1ch 
 ```
 
+#### Logs
 
+Logs are stored by default in the `outputs` folder. Look for the matching experiment name.
+In the experiment folder you will find the training checkpoint `checkpoint.th` (containing the last state as well as the best state)
+as well as the log with the metrics `trainer.log`. All metrics are also extracted to the `history.json`
+file for easier parsing. Enhancements samples are stored in the `samples` folder (if `mix_dir` or `mix_json`
+is set in the dataset config yaml file).
+
+Our output files can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/outputs). The checkpoint files could not be added to this repository, since the files are >100 MB. They can be provided on request. The checkpoint files could also be used to continue the training for better results.
+
+
+### Separation
+
+Separating files can be done by launching the following:
+
+```
+python -m svoice.separate <path to the model> <path to store the separated files> --mix_dir=<path to the dir with the mixture files>
+```
+
+### Evaluating
+
+Evaluating the models can be done by launching the following:
+
+```
+python -m svoice.evaluate <path to the model> <path to folder containing mix.json and all target separated channels json files s<ID>.json>
+```
+
+For more details regarding possible arguments, please see:
+
+```
+
+positional arguments:
+  model_path            Path to model file created by training
+  data_dir              directory including the .json files for the test data. This should include mix.json, s1.json, s2.json and s3.json for the 2+1ch model and mix.json, s1.json, s2.json for the 2ch model. 

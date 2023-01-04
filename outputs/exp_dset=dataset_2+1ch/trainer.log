@@ -1,0 +1,142 @@
+[[36m2022-11-25 08:31:42,636[0m][[34m__main__[0m][[32mINFO[0m] - For logs, checkpoints and samples check /zhome/14/b/164991/outputs/exp_dset=mydataset[0m
+[[36m2022-11-25 08:31:54,350[0m][[34m__main__[0m][[32mINFO[0m] - Running on host n-62-20-2[0m
+[[36m2022-11-25 08:31:57,166[0m][[34msvoice.solver[0m][[32mINFO[0m] - Loading checkpoint model: checkpoint.th[0m
+[[36m2022-11-25 08:31:57,429[0m][[34msvoice.solver[0m][[32mINFO[0m] - Replaying metrics from previous run[0m
+[[36m2022-11-25 08:31:57,429[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 0: train=0.43464 valid=-0.59907 best=-0.59907[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 1: train=-0.52753 valid=-1.98567 best=-1.98567[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 2: train=-0.98591 valid=-2.86019 best=-2.86019[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 3: train=-1.30051 valid=-3.36384 best=-3.36384[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 4: train=-1.53656 valid=-3.53653 best=-3.53653[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 5: train=-1.80424 valid=-4.04501 best=-4.04501[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 6: train=-1.99173 valid=-4.29787 best=-4.29787[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 7: train=-2.18395 valid=-4.24549 best=-4.29787[0m
+[[36m2022-11-25 08:31:57,430[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 8: train=-2.35110 valid=-4.73968 best=-4.73968[0m
+[[36m2022-11-25 08:31:57,431[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 9: train=-2.31889 valid=-4.61838 best=-4.73968 sisnr=5.99729 pesq=0.00000 stoi=0.00000[0m
+[[36m2022-11-25 08:31:57,431[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 10: train=-2.50511 valid=-5.08513 best=-5.08513[0m
+[[36m2022-11-25 08:31:57,431[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 11: train=-2.60734 valid=-4.72306 best=-5.08513[0m
+[[36m2022-11-25 08:31:57,431[0m][[34msvoice.solver[0m][[32mINFO[0m] - Epoch 12: train=-2.76446 valid=-5.30473 best=-5.30473[0m
+[[36m2022-11-25 08:31:57,432[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 08:31:57,432[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-25 09:11:55,200[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 14 | 336/1682 | 0.1 it/sec | Loss -2.90873[0m
+[[36m2022-11-25 09:51:25,818[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 14 | 672/1682 | 0.1 it/sec | Loss -2.86805[0m
+[[36m2022-11-25 10:30:40,227[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 14 | 1008/1682 | 0.1 it/sec | Loss -2.87363[0m
+[[36m2022-11-25 11:10:18,331[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 14 | 1344/1682 | 0.1 it/sec | Loss -2.88090[0m
+[[36m2022-11-25 11:50:25,034[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 14 | 1680/1682 | 0.1 it/sec | Loss -2.90479[0m
+[[36m2022-11-25 11:50:38,799[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mTrain Summary | End of Epoch 14 | Time 11921.37s | Train Loss -2.90470[0m
+[[36m2022-11-25 11:50:38,800[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 11:50:38,800[0m][[34msvoice.solver[0m][[32mINFO[0m] - Cross validation...[0m
+[[36m2022-11-25 11:50:49,464[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 14 | 40/200 | 3.9 it/sec | Loss -4.63899[0m
+[[36m2022-11-25 11:50:56,693[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 14 | 80/200 | 4.6 it/sec | Loss -4.98154[0m
+[[36m2022-11-25 11:51:02,304[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 14 | 120/200 | 5.2 it/sec | Loss -4.98788[0m
+[[36m2022-11-25 11:51:05,783[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 14 | 160/200 | 6.0 it/sec | Loss -5.05127[0m
+[[36m2022-11-25 11:51:09,061[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 14 | 200/200 | 6.7 it/sec | Loss -5.20423[0m
+[[36m2022-11-25 11:51:09,062[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mValid Summary | End of Epoch 14 | Time 11951.63s | Valid Loss -5.20423[0m
+[[36m2022-11-25 11:51:09,063[0m][[34msvoice.solver[0m][[32mINFO[0m] - Learning rate adjusted: 0.00044[0m
+[[36m2022-11-25 11:51:09,063[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 11:51:09,063[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mOverall Summary | Epoch 14 | Train -2.90470 | Valid -5.20423 | Best -5.30473[0m
+[[36m2022-11-25 11:51:10,353[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 11:51:10,354[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-25 12:33:06,624[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 15 | 336/1682 | 0.1 it/sec | Loss -2.98733[0m
+[[36m2022-11-25 13:16:23,554[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 15 | 672/1682 | 0.1 it/sec | Loss -2.99423[0m
+[[36m2022-11-25 14:05:32,080[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 15 | 1008/1682 | 0.1 it/sec | Loss -3.00183[0m
+[[36m2022-11-25 15:01:07,202[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 15 | 1344/1682 | 0.1 it/sec | Loss -3.01468[0m
+[[36m2022-11-25 15:56:40,237[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 15 | 1680/1682 | 0.1 it/sec | Loss -3.01506[0m
+[[36m2022-11-25 15:56:58,356[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mTrain Summary | End of Epoch 15 | Time 14748.00s | Train Loss -3.01521[0m
+[[36m2022-11-25 15:56:58,357[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 15:56:58,357[0m][[34msvoice.solver[0m][[32mINFO[0m] - Cross validation...[0m
+[[36m2022-11-25 15:57:08,844[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 15 | 40/200 | 4.0 it/sec | Loss -4.43296[0m
+[[36m2022-11-25 15:57:16,170[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 15 | 80/200 | 4.6 it/sec | Loss -5.12547[0m
+[[36m2022-11-25 15:57:22,003[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 15 | 120/200 | 5.2 it/sec | Loss -5.16930[0m
+[[36m2022-11-25 15:57:25,471[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 15 | 160/200 | 6.0 it/sec | Loss -5.28615[0m
+[[36m2022-11-25 15:57:28,747[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 15 | 200/200 | 6.7 it/sec | Loss -5.38144[0m
+[[36m2022-11-25 15:57:28,748[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mValid Summary | End of Epoch 15 | Time 14778.40s | Valid Loss -5.38144[0m
+[[36m2022-11-25 15:57:28,750[0m][[34msvoice.solver[0m][[32mINFO[0m] - Learning rate adjusted: 0.00043[0m
+[[36m2022-11-25 15:57:28,750[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mNew best valid loss -5.3814[0m
+[[36m2022-11-25 15:57:28,784[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 15:57:28,784[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mOverall Summary | Epoch 15 | Train -3.01521 | Valid -5.38144 | Best -5.38144[0m
+[[36m2022-11-25 15:57:30,432[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 15:57:30,432[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-25 16:50:31,544[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 16 | 336/1682 | 0.1 it/sec | Loss -3.11895[0m
+[[36m2022-11-25 17:38:46,475[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 16 | 672/1682 | 0.1 it/sec | Loss -3.14167[0m
+[[36m2022-11-25 18:25:00,393[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 16 | 1008/1682 | 0.1 it/sec | Loss -3.13794[0m
+[[36m2022-11-25 19:08:03,546[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 16 | 1344/1682 | 0.1 it/sec | Loss -3.14036[0m
+[[36m2022-11-25 19:50:32,580[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 16 | 1680/1682 | 0.1 it/sec | Loss -3.15870[0m
+[[36m2022-11-25 19:50:48,118[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mTrain Summary | End of Epoch 16 | Time 13997.69s | Train Loss -3.15880[0m
+[[36m2022-11-25 19:50:48,119[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 19:50:48,119[0m][[34msvoice.solver[0m][[32mINFO[0m] - Cross validation...[0m
+[[36m2022-11-25 19:50:58,469[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 16 | 40/200 | 4.0 it/sec | Loss -4.88765[0m
+[[36m2022-11-25 19:51:05,871[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 16 | 80/200 | 4.6 it/sec | Loss -5.24211[0m
+[[36m2022-11-25 19:51:11,592[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 16 | 120/200 | 5.2 it/sec | Loss -5.27281[0m
+[[36m2022-11-25 19:51:15,058[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 16 | 160/200 | 6.0 it/sec | Loss -5.42365[0m
+[[36m2022-11-25 19:51:18,338[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 16 | 200/200 | 6.7 it/sec | Loss -5.49647[0m
+[[36m2022-11-25 19:51:18,339[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mValid Summary | End of Epoch 16 | Time 14027.91s | Valid Loss -5.49647[0m
+[[36m2022-11-25 19:51:18,340[0m][[34msvoice.solver[0m][[32mINFO[0m] - Learning rate adjusted: 0.00043[0m
+[[36m2022-11-25 19:51:18,340[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mNew best valid loss -5.4965[0m
+[[36m2022-11-25 19:51:18,372[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 19:51:18,372[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mOverall Summary | Epoch 16 | Train -3.15880 | Valid -5.49647 | Best -5.49647[0m
+[[36m2022-11-25 19:51:19,677[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 19:51:19,677[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-25 20:32:09,587[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 17 | 336/1682 | 0.1 it/sec | Loss -3.20282[0m
+[[36m2022-11-25 21:12:12,889[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 17 | 672/1682 | 0.1 it/sec | Loss -3.21719[0m
+[[36m2022-11-25 21:52:12,716[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 17 | 1008/1682 | 0.1 it/sec | Loss -3.22984[0m
+[[36m2022-11-25 22:32:02,915[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 17 | 1344/1682 | 0.1 it/sec | Loss -3.23740[0m
+[[36m2022-11-25 23:11:26,652[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 17 | 1680/1682 | 0.1 it/sec | Loss -3.25814[0m
+[[36m2022-11-25 23:11:40,515[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mTrain Summary | End of Epoch 17 | Time 12020.84s | Train Loss -3.25706[0m
+[[36m2022-11-25 23:11:40,515[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 23:11:40,516[0m][[34msvoice.solver[0m][[32mINFO[0m] - Cross validation...[0m
+[[36m2022-11-25 23:11:50,841[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 17 | 40/200 | 4.0 it/sec | Loss -4.98986[0m
+[[36m2022-11-25 23:11:58,151[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 17 | 80/200 | 4.6 it/sec | Loss -5.48351[0m
+[[36m2022-11-25 23:12:03,780[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 17 | 120/200 | 5.2 it/sec | Loss -5.44836[0m
+[[36m2022-11-25 23:12:07,255[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 17 | 160/200 | 6.1 it/sec | Loss -5.54049[0m
+[[36m2022-11-25 23:12:10,534[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 17 | 200/200 | 6.7 it/sec | Loss -5.59187[0m
+[[36m2022-11-25 23:12:10,535[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mValid Summary | End of Epoch 17 | Time 12050.86s | Valid Loss -5.59187[0m
+[[36m2022-11-25 23:12:10,536[0m][[34msvoice.solver[0m][[32mINFO[0m] - Learning rate adjusted: 0.00043[0m
+[[36m2022-11-25 23:12:10,536[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mNew best valid loss -5.5919[0m
+[[36m2022-11-25 23:12:10,569[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 23:12:10,569[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mOverall Summary | Epoch 17 | Train -3.25706 | Valid -5.59187 | Best -5.59187[0m
+[[36m2022-11-25 23:12:11,858[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-25 23:12:11,858[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-25 23:51:47,481[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 18 | 336/1682 | 0.1 it/sec | Loss -3.35095[0m
+[[36m2022-11-26 00:32:06,382[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 18 | 672/1682 | 0.1 it/sec | Loss -3.39718[0m
+[[36m2022-11-26 01:11:54,224[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 18 | 1008/1682 | 0.1 it/sec | Loss -3.40225[0m
+[[36m2022-11-26 01:51:20,292[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 18 | 1344/1682 | 0.1 it/sec | Loss -3.39976[0m
+[[36m2022-11-26 02:30:37,381[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 18 | 1680/1682 | 0.1 it/sec | Loss -3.39272[0m
+[[36m2022-11-26 02:30:51,292[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mTrain Summary | End of Epoch 18 | Time 11919.43s | Train Loss -3.39242[0m
+[[36m2022-11-26 02:30:51,292[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-26 02:30:51,292[0m][[34msvoice.solver[0m][[32mINFO[0m] - Cross validation...[0m
+[[36m2022-11-26 02:31:01,580[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 18 | 40/200 | 4.0 it/sec | Loss -5.25796[0m
+[[36m2022-11-26 02:31:08,907[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 18 | 80/200 | 4.6 it/sec | Loss -5.67739[0m
+[[36m2022-11-26 02:31:14,598[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 18 | 120/200 | 5.2 it/sec | Loss -5.67584[0m
+[[36m2022-11-26 02:31:18,064[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 18 | 160/200 | 6.0 it/sec | Loss -5.74129[0m
+[[36m2022-11-26 02:31:21,349[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 18 | 200/200 | 6.7 it/sec | Loss -5.86445[0m
+[[36m2022-11-26 02:31:21,350[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mValid Summary | End of Epoch 18 | Time 11949.49s | Valid Loss -5.86445[0m
+[[36m2022-11-26 02:31:21,351[0m][[34msvoice.solver[0m][[32mINFO[0m] - Learning rate adjusted: 0.00043[0m
+[[36m2022-11-26 02:31:21,351[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mNew best valid loss -5.8645[0m
+[[36m2022-11-26 02:31:21,384[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-26 02:31:21,384[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mOverall Summary | Epoch 18 | Train -3.39242 | Valid -5.86445 | Best -5.86445[0m
+[[36m2022-11-26 02:31:22,723[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-26 02:31:22,723[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-26 03:10:24,884[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 19 | 336/1682 | 0.1 it/sec | Loss -3.49637[0m
+[[36m2022-11-26 03:49:35,168[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 19 | 672/1682 | 0.1 it/sec | Loss -3.50615[0m
+[[36m2022-11-26 04:28:37,625[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 19 | 1008/1682 | 0.1 it/sec | Loss -3.49021[0m
+[[36m2022-11-26 05:07:23,997[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 19 | 1344/1682 | 0.1 it/sec | Loss -3.48617[0m
+[[36m2022-11-26 05:46:21,133[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 19 | 1680/1682 | 0.1 it/sec | Loss -3.48683[0m
+[[36m2022-11-26 05:46:34,142[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mTrain Summary | End of Epoch 19 | Time 11711.42s | Train Loss -3.48694[0m
+[[36m2022-11-26 05:46:34,143[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-26 05:46:34,143[0m][[34msvoice.solver[0m][[32mINFO[0m] - Cross validation...[0m
+[[36m2022-11-26 05:46:44,485[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 19 | 40/200 | 4.0 it/sec | Loss -5.38801[0m
+[[36m2022-11-26 05:46:51,748[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 19 | 80/200 | 4.6 it/sec | Loss -5.84266[0m
+[[36m2022-11-26 05:46:57,387[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 19 | 120/200 | 5.2 it/sec | Loss -5.79881[0m
+[[36m2022-11-26 05:47:00,863[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 19 | 160/200 | 6.1 it/sec | Loss -5.88823[0m
+[[36m2022-11-26 05:47:04,156[0m][[34msvoice.solver[0m][[32mINFO[0m] - Valid | Epoch 19 | 200/200 | 6.7 it/sec | Loss -6.02433[0m
+[[36m2022-11-26 05:47:04,157[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mValid Summary | End of Epoch 19 | Time 11741.43s | Valid Loss -6.02433[0m
+[[36m2022-11-26 05:47:04,158[0m][[34msvoice.solver[0m][[32mINFO[0m] - Learning rate adjusted: 0.00042[0m
+[[36m2022-11-26 05:47:04,158[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mNew best valid loss -6.0243[0m
+[[36m2022-11-26 05:47:04,191[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-26 05:47:04,191[0m][[34msvoice.solver[0m][[32mINFO[0m] - [1mOverall Summary | Epoch 19 | Train -3.48694 | Valid -6.02433 | Best -6.02433[0m
+[[36m2022-11-26 05:47:05,515[0m][[34msvoice.solver[0m][[32mINFO[0m] - ----------------------------------------------------------------------[0m
+[[36m2022-11-26 05:47:05,515[0m][[34msvoice.solver[0m][[32mINFO[0m] - Training...[0m
+[[36m2022-11-26 06:26:02,188[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 20 | 336/1682 | 0.1 it/sec | Loss -3.46703[0m
+[[36m2022-11-26 07:04:57,992[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 20 | 672/1682 | 0.1 it/sec | Loss -3.32568[0m
+[[36m2022-11-26 07:43:56,935[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 20 | 1008/1682 | 0.1 it/sec | Loss -3.29271[0m
+[[36m2022-11-26 08:22:58,222[0m][[34msvoice.solver[0m][[32mINFO[0m] - Train | Epoch 20 | 1344/1682 | 0.1 it/sec | Loss -3.31719[0m
