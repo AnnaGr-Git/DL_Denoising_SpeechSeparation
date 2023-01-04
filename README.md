@@ -81,8 +81,8 @@ positional arguments:
   data_dir              directory including the .json files for the test data. This should include  mix.json, s1.json, s2.json for the 2ch model. 
 ```
 
-To evaluate the 2+1ch model, the noise channel need to be disregarded. First, the test files need to be seperated following the steps mentioned above. After, the script `Calculate_SISNRi_svoice.py` needs to be used with updated paths to the folders with the separated files. The output is the SI-SNRi and the filename of the best separated mixture.
+To evaluate the 2+1ch model of SVoice, the noise channel need to be disregarded. First, the test files need to be seperated following the steps mentioned above. After, the script `Calculate_SISNRi_svoice.py` needs to be used with updated paths to the folders with the separated files. The output is the SI-SNRi and the filename of the best separated mixture. To test the DPRNN models, the same scripts can be adapted and used.
 
 
-  
+## Results
   
