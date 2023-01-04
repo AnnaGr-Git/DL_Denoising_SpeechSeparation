@@ -33,7 +33,7 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 system = System(model, optimizer, loss, train_loader, val_loader)
 
 # upload the lightning_logs folder about the trained model to colab
-# use the best checkpoint to reload our model
+# use the best checkpoint to reload our model(need to change the path ro your trained version folder!)
 # state_dict = torch.load('./lightning_logs/version0/checkpoints/epoch=99-step=5000.ckpt')
 state_dict = torch.load('./lightning_logs/version_1/checkpoints/epoch=99-step=5000.ckpt')
 system.load_state_dict(state_dict=state_dict["state_dict"])
