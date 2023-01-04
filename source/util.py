@@ -29,7 +29,7 @@ def mixSignals(signalsPath, noisepath, SNR=5):
     """
     Mixing speech signals with noise
     input:
-        signalsPath : String, contains the path to the signals .wav
+        signalsPath : Array, contains the path to the signals .wav
         noisepath   : String, contains the path to the noise .wav
         SNR     : float, desired SNR between signals and noise
     output:
@@ -64,7 +64,9 @@ def mixSignals(signalsPath, noisepath, SNR=5):
 
 def adaptDataset(rootFolder, trainingFolder, libriMixDataPath):
     """
-
+    Transforms the dataset format created with libriMix to the one used for the model in asteroid
+    The original format divide the files in folders by sources (folder s1, folder s2, folder mix ...) while for the
+    training of this project, there are a folder per sample containing three different files (mix, source1, source2)
     Params:
         rootFolder: string, path of the data part of the project
         trainingFolder: string, path of the desired training data
