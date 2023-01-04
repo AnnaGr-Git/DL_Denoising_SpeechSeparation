@@ -29,4 +29,20 @@ python -m svoice.data.audio $spk1 > $out/s1.json
 python -m svoice.data.audio $spk2 > $out/s2.json
 python -m svoice.data.audio $spk3 > $out/s3.json
 ```
-The resulting `.json` files should look similar to ours that can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/egs/dataset_2%2B1ch).
+The resulting `.json`files should look similar to ours that can be found [here](https://github.com/AnnaGr-Git/DL_hand-in/tree/main/data/egs/dataset_2%2B1ch). 
+
+### Usage
+
+#### Training
+Training is simply done by launching the `train.py` script:
+
+```
+python train.py
+```
+
+This will automaticlly read all the configurations from the `conf/config.yaml` file in the SVoice repository. We used the same hyperparameters as provided in the file. To overwrite the default dataset to the desired LibriMix dataset configured before, do:
+```
+python train.py dset=dataset_2+1ch 
+```
+
+
