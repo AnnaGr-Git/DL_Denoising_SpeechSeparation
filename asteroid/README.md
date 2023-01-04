@@ -43,7 +43,7 @@ then run `run_model.py`
 
 ## Reload model from checkpoint and separation
 
-After training, you can launch the `reload_Dprnnmodel` to reload trained model from checkpoints. Then you can continue training it for better results or test the trained model.
+After training, you can launch the `reload_DPRNN_model.py` to reload trained model from checkpoints. Then you can continue training it for better results or test the trained model.
 
 An examplary usage of reloading DPRNN model and separating can be found in `reload_DPRNN_Example.ipynb`
 
